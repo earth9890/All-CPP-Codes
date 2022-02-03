@@ -11,4 +11,21 @@ public:
         Data = data;
         right = left = NULL;
     }
+};
+class BST
+{
+    Node *root;
+    void inorder(Node *T);
+
+public:
+    BST()
+    {
+        root = NULL;
+    }
+    void insert(int data);
+    void create();
+    void PreOrder()
+    {
+        PreOrder_1(root);
+    }
 }

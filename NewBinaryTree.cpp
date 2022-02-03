@@ -8,9 +8,11 @@ struct node
     node(int val)
     {
         data = val;
-        left = null;
-        right = null;
+        left = NULL;
+        right = NULL;
     }
 };
 
-node *insertItem
+node *insertItem(node *root, int val)
+{
+}

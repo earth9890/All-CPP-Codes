@@ -30,5 +30,5 @@ void BST ::InsertItem(int data)
     node->Data = data;
     node->Left = NULL;
     node->Right = NULL;
-    return (Node * node);
+    return ();
 }

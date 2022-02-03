@@ -1,4 +1,4 @@
-//Harish Dhanraj Sugandhi.
+// Harish Dhanraj Sugandhi.
 
 #include <iostream>
 using namespace std;
@@ -472,7 +472,7 @@ int main()
     tree y, t1, t2, t3;
     do
     {
-        cout << "Enter Choice\n1.Create and Traversal\n2.Leaf Nodes\n3.Internal Nodes\n4.Mirror of Tree\n5.Deletion of Tree\n6.Copy of tree\n7.Check Equal\n";
+        cout << "Enter Choice\n1.Create and Traversal\n2.Leaf Nodes\n3.Internal Ndoes n4.Mirror of Tree\n5.Deletion of Tree\n6.Copy of tree\n7.Check Equal\n";
         cin >> c;
         switch (c)
         {

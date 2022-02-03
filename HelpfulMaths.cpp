@@ -11,5 +11,11 @@ int main()
     }
     for (int i = 0; i < s.size(); i++)
     {
+        for (int j = 0; i < s.size() - 1; j++)
+        {
+            if (s[j] > s[j + 1])
+            {
+            }
+        }
     }
 }
