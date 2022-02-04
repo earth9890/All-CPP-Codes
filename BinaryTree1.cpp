@@ -1,3 +1,5 @@
+
+
 // Harish Dhanraj Sugandhi.
 
 #include <iostream>
@@ -337,7 +339,7 @@ node *tree::create_nonrec()
     {
 
         t = q.deque();
-        cout << "Enter left of " << t->data << endl;
+        cout << "Enter left of or -1 to stop " << t->data << endl;
         cin >> x;
         if (x != -1)
         {
