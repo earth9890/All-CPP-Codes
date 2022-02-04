@@ -1,7 +1,6 @@
-
-
-// Harish Dhanraj Sugandhi.
-
+// Name : Harish Dhanraj Sugandhi.
+//  Code - Binary Tree
+//  Date - 20/01/2022
 #include <iostream>
 using namespace std;
 #define MAX 50
@@ -346,7 +345,7 @@ node *tree::create_nonrec()
             t->lc = new node(x);
             q.enque(t->lc);
         }
-        cout << "Enter Right of " << t->data << endl;
+        cout << "Enter Right of or -1 to stop " << t->data << endl;
         cin >> x;
         if (x != -1)
         {
@@ -474,7 +473,8 @@ int main()
     tree y, t1, t2, t3;
     do
     {
-        cout << "Enter Choice\n1.Create and Traversal\n2.Leaf Nodes\n3.Internal Ndoes n4.Mirror of Tree\n5.Deletion of Tree\n6.Copy of tree\n7.Check Equal\n";
+        cout << "************MENU************" << endl;
+        cout << "Enter Choice\n1.Create and Traversal\n2.Leaf Nodes\n3.Internal Ndoes\n4.Mirror of Tree\n5.Deletion of Tree\n6.Copy of tree\n7.Check Equal\n";
         cin >> c;
         switch (c)
         {
